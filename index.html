@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Password Maker</title>
+	<script src="script.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="topnav.css">
+</head>
+<body>
+	<div class="topnav">
+		<a class="active">Password Designer</a>
+	</div>
+
+	<br>
+	<table id="mainLayout">
+		<tr>
+			<th id="left-side">
+				<div class="dataBox" id="infoInput">
+					<!--<label for="fname">Fist Name: </label>
+					<input type="text" name="fname" id="fname" oninput="updatePasswords()">-->
+				</div>
+			</th>
+			<th id="right-side">
+				<div class="dataBox" id="passOutput">
+					<!--<a class="passTitle">Bank Sign In:</a><br>
+					<div class="login">
+						<label for="thing">Username: </label>
+						<input class="outputField" type="text" name="thing" id="thing" readonly><br>
+						<label for="thing1">Password: </label>
+						<input class="outputField" type="text" name="thing1" id="thing1" readonly>
+					</div>-->
+				</div>
+			</th>
+		</tr>
+	</table>
+	<script>
+		populateInfoInputs();
+		populatePasswordOutputs();
+	</script>
+
+
+
+	<!--   To test if pseudoRandom function works
+
+	<canvas id="myCanvas" width="200" height="100" style="border:1px solid #d3d3d3;"></canvas>
+	<script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+for (var i = 0; i < c.height; i++) {
+	for (var j = 0; j < c.width; j++) {
+		var val = pseudoRandom(i*j, i*j) * 255;
+		ctx.fillStyle = 'rgb(' + [val,val,val].join(',') + ')';
+		ctx.fillRect(j,i,1,1);
+		ctx.stroke();
+	}
+}
+	</script>-->
+</body>
+</html>
