@@ -13,3 +13,5 @@ If you were to type in some information, for instance questions that you might s
 
 # Useage
 Long story short, it's not useable yet. Haha. Just a proof of concept :)
+
+But you can still see an example working here: [https://21beckem.github.io/Password-Designer/](https://21beckem.github.io/Password-Designer/)
